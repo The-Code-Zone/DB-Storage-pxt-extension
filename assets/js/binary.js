@@ -1,4 +1,4 @@
-// meta={"simUrl":"/simulator.html","cdnUrl":"/","version":"0.0.5","target":"arcade","targetVersion":"2.0.3","repo":"tomhausen/tcz-modders-db-storage"}
+// meta={"simUrl":"/simulator.html","cdnUrl":"/","version":"0.0.6","target":"arcade","targetVersion":"2.0.3","repo":"tomhausen/tcz-modders-db-storage"}
 // total=1250950 new=5.99% cached=88.35% other=5.67%
 (function (ectx) {
 'use strict';
@@ -429,7 +429,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P42195(s) {
+function _main___P49444(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -827,73 +827,73 @@ switch (step) {
     s.callLocIdx = 62; s.pc = 36; return s.tmp_0;
   case 36:
     r0 = s.retval;
-    globals.PRE___41572 = ("DB.");
-    if ((globals.PRE___41572) && (globals.PRE___41572).vtable) {
+    globals.PRE___48625 = ("DB.");
+    if ((globals.PRE___48625) && (globals.PRE___48625).vtable) {
     setupResume(s, 37);
-    pxsim_String__stringConv(globals.PRE___41572);
+    pxsim_String__stringConv(globals.PRE___48625);
     checkResumeConsumed();
     return;
-    } else { s.retval = (globals.PRE___41572) + ""; }
+    } else { s.retval = (globals.PRE___48625) + ""; }
   case 37:
     r0 = s.retval;
     s.tmp_0 = r0;
     r0 = pxsim_String__concat(s.tmp_0, "C.");
-    globals.PRE_CFG___41576 = (r0);
-    if ((globals.PRE_CFG___41576) && (globals.PRE_CFG___41576).vtable) {
+    globals.PRE_CFG___48629 = (r0);
+    if ((globals.PRE_CFG___48629) && (globals.PRE_CFG___48629).vtable) {
     setupResume(s, 38);
-    pxsim_String__stringConv(globals.PRE_CFG___41576);
+    pxsim_String__stringConv(globals.PRE_CFG___48629);
     checkResumeConsumed();
     return;
-    } else { s.retval = (globals.PRE_CFG___41576) + ""; }
+    } else { s.retval = (globals.PRE_CFG___48629) + ""; }
   case 38:
     r0 = s.retval;
     s.tmp_0 = r0;
     r0 = pxsim_String__concat(s.tmp_0, "T.");
-    globals.PRE_CFG_TEXT___41582 = (r0);
-    if ((globals.PRE_CFG___41576) && (globals.PRE_CFG___41576).vtable) {
+    globals.PRE_CFG_TEXT___48635 = (r0);
+    if ((globals.PRE_CFG___48629) && (globals.PRE_CFG___48629).vtable) {
     setupResume(s, 39);
-    pxsim_String__stringConv(globals.PRE_CFG___41576);
+    pxsim_String__stringConv(globals.PRE_CFG___48629);
     checkResumeConsumed();
     return;
-    } else { s.retval = (globals.PRE_CFG___41576) + ""; }
+    } else { s.retval = (globals.PRE_CFG___48629) + ""; }
   case 39:
     r0 = s.retval;
     s.tmp_0 = r0;
     r0 = pxsim_String__concat(s.tmp_0, "N.");
-    globals.PRE_CFG_NUM___41588 = (r0);
-    if ((globals.PRE_CFG___41576) && (globals.PRE_CFG___41576).vtable) {
+    globals.PRE_CFG_NUM___48641 = (r0);
+    if ((globals.PRE_CFG___48629) && (globals.PRE_CFG___48629).vtable) {
     setupResume(s, 40);
-    pxsim_String__stringConv(globals.PRE_CFG___41576);
+    pxsim_String__stringConv(globals.PRE_CFG___48629);
     checkResumeConsumed();
     return;
-    } else { s.retval = (globals.PRE_CFG___41576) + ""; }
+    } else { s.retval = (globals.PRE_CFG___48629) + ""; }
   case 40:
     r0 = s.retval;
     s.tmp_0 = r0;
     r0 = pxsim_String__concat(s.tmp_0, "B.");
-    globals.PRE_CFG_BOOL___41594 = (r0);
-    if ((globals.PRE___41572) && (globals.PRE___41572).vtable) {
+    globals.PRE_CFG_BOOL___48647 = (r0);
+    if ((globals.PRE___48625) && (globals.PRE___48625).vtable) {
     setupResume(s, 41);
-    pxsim_String__stringConv(globals.PRE___41572);
+    pxsim_String__stringConv(globals.PRE___48625);
     checkResumeConsumed();
     return;
-    } else { s.retval = (globals.PRE___41572) + ""; }
+    } else { s.retval = (globals.PRE___48625) + ""; }
   case 41:
     r0 = s.retval;
     s.tmp_0 = r0;
     r0 = pxsim_String__concat(s.tmp_0, "L.");
-    globals.PRE_LIST___41600 = (r0);
+    globals.PRE_LIST___48653 = (r0);
     r0 = undefined;
     return leave(s, r0)
   default: oops()
 } } }
-_main___P42195.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P42195.continuations = [ 37,38,39,40,41 ]
+_main___P49444.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P49444.continuations = [ 37,38,39,40,41 ]
 
-function _main___P42195_mk(s) {
+function _main___P49444_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P42195, depth: s.depth + 1,
+        parent: s, fn: _main___P49444, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -42408,7 +42408,7 @@ const sprites_BaseSpriteSayRenderer__C22730_VT = mkVTable({
   },
 });
 
-const breakpoints = setupDebugger(1, ["PRE_CFG___41576","PRE___41572","PRE_CFG_TEXT___41582","PRE_CFG_NUM___41588","PRE_CFG_BOOL___41594","PRE_LIST___41600"])
+const breakpoints = setupDebugger(1, ["PRE_CFG___48629","PRE___48625","PRE_CFG_TEXT___48635","PRE_CFG_NUM___48641","PRE_CFG_BOOL___48647","PRE_LIST___48653"])
 
-return _main___P42195
+return _main___P49444
 })
