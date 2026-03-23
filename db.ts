@@ -193,7 +193,7 @@ namespace database {
     //% block="set key $key to list $val"
     //% group="Pairs Key = Value"
     //% weight=100
-    export function setList(key: string, val: number[]){
+    export function setList(key: string, val: any[]){
         settings.writeNumberArray(key, val);
     }
 
