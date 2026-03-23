@@ -190,11 +190,11 @@ namespace database {
 
 
     //% blockId=setListValue
-    //% block="set key $key to list $val"
+    //% block="set key $key to list $list"
     //% group="Pairs Key = Value"
     //% weight=100
-    export function setList(key: string, val: any[]){
-        settings.writeNumberArray(key, val);
+    export function setList(key: string, list: number[]){
+        settings.writeNumberArray(key, list);
     }
 
     //% blockId=getListValue
